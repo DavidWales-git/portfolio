@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,55 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# UKD.dev — Portfolio
+
+Personal portfolio site for Ugochukwu Kenechukwu David — Full-Stack Web Developer & AI Data Specialist. Built with Next.js, TypeScript, and Tailwind CSS.
+
+**Live site:** _add your deployed URL here_
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org) (App Router)
+- TypeScript
+- Tailwind CSS v4
+- [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) for optimized loading of Inter
+
+## Getting Started
+
+This project uses [pnpm](https://pnpm.io). Install dependencies, then run the dev server:
+
+```bash
+pnpm install
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it locally. The page auto-updates as you edit `app/page.tsx`.
+
+## Project Structure
+
+```
+app/
+  layout.tsx    # Root layout, metadata, font setup
+  page.tsx      # Single-page portfolio (hero, about, skills, projects, contact)
+  globals.css   # Tailwind import + theme tokens
+```
+
+## Editing Content
+
+- **Projects** — update the `projects` array at the top of `app/page.tsx` with new entries, descriptions, tags, and links.
+- **Skills** — update the `skills` object in the same file.
+- **Site metadata** (title/description for SEO) — `app/layout.tsx`.
+
+## Deployment
+
+Deployed on [Vercel](https://vercel.com). Push to `main` and Vercel will build and deploy automatically, or run:
+
+```bash
+vercel --prod
+```
+
+## License
+
+Personal project — all rights reserved.
+>>>>>>> 76495fa8adad7b0fab3c2b364f1b000d247e4fce
